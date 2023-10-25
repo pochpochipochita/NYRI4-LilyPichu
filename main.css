@@ -199,7 +199,9 @@
   color: var(--background-accent);
   background-color: var(--background-secondary-alt) !important;
 }
-
+.resizeHandle_f1a098 {
+  background: transparent !important;
+}
 /* Notification Settings Dropdown */
 :root .item-5ApiZt.colorDefault-2_rLdz:hover, :root .item-5ApiZt.colorDefault-2_rLdz.focused-3LIdPu, :root .item-5ApiZt.colorDefault-2_rLdz:active:not(.hideInteraction-2jPGL_) {
   background: var(--background-primary);
