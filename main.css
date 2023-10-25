@@ -208,6 +208,13 @@
   background-color: var(--background-primary);
 }
 
+/* Resize Handle*/
+.resizeHandle-PBRzPC {
+  background-color: rgba(var(--chat-transparency-color), var(--chat-transparency)) !important;
+  -webkit-backdrop-filter: blur(var(--chat-background-blur)) !important;
+          backdrop-filter: blur(var(--chat-background-blur)) !important;
+}
+
 .theme-light .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .theme-light .wrapper-3kah-n:hover .childWrapper-1j_1ub {
   background-color: var(--text-normal);
