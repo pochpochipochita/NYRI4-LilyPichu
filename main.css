@@ -202,7 +202,10 @@
 
 /* Notification Settings Dropdown */
 :root .item-5ApiZt.colorDefault-2_rLdz:hover, :root .item-5ApiZt.colorDefault-2_rLdz.focused-3LIdPu, :root .item-5ApiZt.colorDefault-2_rLdz:active:not(.hideInteraction-2jPGL_) {
-  background-color: var(--background-primary) !important;
+  background: var(--background-primary);
+}
+:root .item-5ApiZt.colorDanger-3umuSx:hover, :root .item-5ApiZt.colorDanger-3umuSx.focused-3LIdPu, :root .item-5ApiZt.colorDanger-3umuSx:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-primary);
 }
 
 .theme-light .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
