@@ -200,6 +200,11 @@
   background-color: var(--background-secondary-alt) !important;
 }
 
+/* Notification Settings Dropdown */
+:root .item-5ApiZt.colorDefault-2_rLdz:hover, :root .item-5ApiZt.colorDefault-2_rLdz.focused-3LIdPu, :root .item-5ApiZt.colorDefault-2_rLdz:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-primary);
+}
+
 .theme-light .wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub,
 .theme-light .wrapper-3kah-n:hover .childWrapper-1j_1ub {
   background-color: var(--text-normal);
