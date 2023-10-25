@@ -11,6 +11,9 @@
 /* Remove decorations */
 @import url("https://pochpochipochita.github.io/NYRI4-LilyPichu/stuff/overlay.css");
 
+/* Remove scrollbar */
+@import "https://comfy-themes.github.io/Discord/betterdiscord/no-scrollbar.css";
+
 :root {
   /* --- User variables --- */
 
