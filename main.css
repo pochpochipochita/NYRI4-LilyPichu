@@ -1755,8 +1755,7 @@
 }
 
 @media (min-width: 1350px) {
-  .profilePanel__12596,
-  .membersWrap__90226,
+  .chatContent__5dca8 + :last-child,
   .container_b2ce9c {
     position: fixed;
     top: 280px;
@@ -1835,5 +1834,3 @@
     background-color: var(--background-primary);
   }
 }
-
-/*# sourceMappingURL=main.css.map */
