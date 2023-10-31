@@ -1,0 +1,219 @@
+/**
+* @name A LilyPichu Edit
+* @author Nyria#3863
+* @description A theme based on @Melonturtle_ stream design
+* @invite rtBQX5D3bD
+* @version 1.4
+* @donate https://ko-fi.com/nyria
+*/
+@import url("https://pochpochipochita.github.io/NYRI4-LilyPichu/main.css");
+
+/* Remove decorations */
+@import url("https://pochpochipochita.github.io/NYRI4-LilyPichu/stuff/overlay.css");
+
+:root {
+  /* --- User variables --- */
+
+  /* Jumping GIF */
+  --jumping-gif: url("https://i.imgur.com/dCd49s0.gif");
+
+  /* Background (if you want an image replace it by : 
+
+--background-tertiary-alt: url("image-link"); without that => */
+  --background-tertiary-alt: #ffc7d4;
+
+  /* Border-radius for the whole theme */
+  --border-radius: 20px;
+}
+
+.theme-dark {
+  /* Text */
+  --text-normal: #f8e1e5;
+  --header-primary: #f8e1e5;
+  --interactive-normal: #fab1bd;
+  --channels-default: #f8e1e5;
+
+  --text-muted: #e2c1c7;
+  --interactive-muted: #ad8c91;
+
+  --header-secondary: #e2c1c7;
+  --interactive-hover: #e2c1c7;
+  --interactive-active: #e2c1c7;
+
+  /* Background color */
+  --background-primary: #5e3640;
+  --background-secondary: #49292f;
+  --background-secondary-alt: #3b1d24;
+  --background-tertiary: #220f14;
+  --background-floating: #221115;
+  --background-accent: #c5536c;
+
+  --channeltextarea-background: var(--background-secondary);
+  --modal-background: var(--background-primary);
+  --background-modifier-hover: #5e36403b;
+  --background-modifier-active: #5e364058;
+  --background-modifier-selected: #5e364068;
+  --brand-experiment-600: #5e36403b !important;
+  --toast-background: #5e3640 !important;
+  --toast-header: #3b1d24 !important;
+  --toast-contents: #49292f !important;
+  --toast-border: #49292f !important;
+  --input-background: var(--background-secondary);
+
+  --brand-experiment: var(--background-accent);
+  --brand-experiment-500: var(--background-accent);
+  
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  /* Other */
+  --channel-text-area-placeholder: var(--interactive-normal);
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+.colorBrand-3cPPsm {
+  color: #c5536c;
+}
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-1H2Jvj {
+  background-color: #c5536c !important;
+}
+.lookFilled-1H2Jvj:active,
+.lookFilled-1H2Jvj:hover {
+  background-color: #b64a61 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #c5536c;
+  border-color: #c5536c;
+}
+
+/* Hover background */
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  color: var(--interactive-normal);
+}
+
+.theme-light {
+  /* Text */
+  --text-normal: #a86373;
+  --header-primary: #a86373;
+  --interactive-normal: #a86373;
+  --channels-default: #a86373;
+
+  --text-muted: #a86373;
+  --interactive-muted: #cf92a0;
+
+  --header-secondary: #cf92a0;
+  --interactive-hover: #be7d8c;
+  --interactive-active: #b36f7f;
+
+  /* Background color */
+  --background-primary: #ffffff;
+  --background-secondary: #ffeeee;
+  --background-secondary-alt: #fdc7c7;
+  --background-tertiary: #ffbbbb;
+  --background-floating: #ffbbbb;
+  --background-accent: #c5536c;
+  --channeltextarea-background: var(--background-secondary);
+  --background-modifier-hover: rgba(56, 31, 31, 0.062);
+  --background-modifier-active: rgba(19, 12, 12, 0.123);
+  --background-modifier-selected: rgba(31, 21, 21, 0.11);
+
+  /* Scrollbar */
+  --scrollbar-auto-thumb: var(--background-tertiary);
+  --scrollbar-auto-track: var(--background-secondary-alt);
+  --scrollbar-thin-thumb: var(--background-tertiary);
+  --scrollbar-thin-track: transparent;
+
+  --chat-background-blur: none;
+  --chat-transparency: 0.5 !important;
+  --chat-transparency-color: var(--background-tertiary) !important;
+  
+  /* Other */
+  --deprecated-quickswitcher-input-background: var(--background-primary);
+}
+
+.colorDefault-CDqZdO.focused-3qFvc8,
+.colorDefault-CDqZdO:active:not(.hideInteraction-2jPGL_) {
+  background-color: var(--background-modifier-hover) !important;
+}
+
+/* Buttons */
+.lookFilled-1H2Jvj {
+  background-color: #c5536c !important;
+}
+.lookFilled-1H2Jvj:active,
+.lookFilled-1H2Jvj:hover {
+  background-color: #b64a61 !important;
+}
+.lookOutlined-3yKVGo:not(.colorWhite-1H92hK) {
+  color: #c5536c;
+  border-color: #c5536c;
+}
+
+
+/* Header Icons */
+.clickable_d23a1a:hover .icon__4cb88 {
+  color: var(--interactive-hover) !important;
+}
+
+.selected_be2668 .icon__4cb88 {
+  color: var(--interactive-active) !important;
+}
+
+
+/* Channel Icons and List */
+.icon__4cb88,
+.icon_eff5d4,
+.modeUnread_f74c03 .icon_eff5d4, .modeUnread_f74c03:hover .icon_eff5d4, 
+modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4 {
+  color: var(--interactive-normal) !important;
+}
+.unreadRelevant__44f9e {
+  background-color: var(--interactive-active);
+}
+.modeSelected__487d6 .link__95dc0, .modeSelected__487d6:hover .link__95dc0 {
+  background: var(--background-secondary-alt,var(--background-modifier-selected));
+  border-radius: var(--border-radius);
+}
+
+/* Member List Hover */
+.clickable__17ccb:hover .layout_bb8e67 {
+  background-color: var(--background-secondary);
+}
+.selected__9800b .layout_bb8e67 {
+  background-color: var(--background-secondary-alt);
+}
+.layout_bb8e67 {
+  border-radius: var(--border-radius);
+}
+
+
+/* Thread */
+
+/* Resize Handle */
+.resizeHandle_f1a098 {
+  
+  background: rgba(222,2222,222, 0) !important;
+  -webkit-backdrop-filter: blur(none) !important;
+          backdrop-filter: blur(none)) !important;
+  z-index: 1;
+}
+
+/* Divider */
+.divider_ffec75 {
+  background-color: var(--background-secondary);
+}
+
+/* Topic Sidebar 
+.container_b181b6 {
+  background-color: var(--background-secondary-alt);
+} */
