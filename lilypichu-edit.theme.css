@@ -15,7 +15,7 @@
   /* --- User variables --- */
 
   /* Jumping GIF */
-  --jumping-gif: url("https://i.imgur.com/dCd49s0.gif");
+  --jumping-gif: url("https://i.imgur.com/4OcpoMW.gif");
 
   /* Background (if you want an image replace it by : 
 
@@ -183,8 +183,12 @@
   border-top: 1px solid var(--dividers-color) !important;
 }
 .divider_b9338f {
-  border-top: thin solid var(--dividers-color) !important
-  --divider-color: var(--dividers-color) !important;
+  z-index: 1;
+  border-top: thin solid var(--dividers-color) !important;
+  --divider-color: var(--background-accent) !important;
+}
+.custom-theme-background .isUnread__6f880, .isUnread__6f880 {
+  border-color: var(--divider-color) !important;
 }
 
 /* Channel Icons and List */
@@ -217,6 +221,12 @@ modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4 {
   border-radius: var(--border-radius);
 }
 
+/* User Settings Edit Custom Status */
+.imageContainer_ea60f4, .hintContainer__79e5e {
+  margin-left: 0px;
+  margin-right: 8px;
+}
+
 
 /* Thread */
 
@@ -236,7 +246,6 @@ modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4 {
 
 /* OP Tag */
 .botTagOP_e48ddb {
-  font-size: .75em;
   color: var(--text-normal);
 }
 .rem__931aa.botTag__4211a {
@@ -247,8 +256,26 @@ modeSelected__487d6 .icon_eff5d4, .modeSelected__487d6:hover .icon_eff5d4 {
   margin-top: .05em;
 }
 
+/* New Badge */
+.textBadge__45d79 {
+  background-color: var(--background-accent) !important;
+  color: var(--text-normal);
+  padding-top: .125rem;
+}
 
-/* Topic Sidebar 
-.container_b181b6 {
-  background-color: var(--background-secondary-alt);
-} */
+
+/* Thread Preview */
+
+/* Thread Author *
+.author_ce38b7 a {
+  color: var(--header-primary);
+  background-color: var(--background-secondary);
+  padding: .15em .55em;
+  border-radius: 8px;
+}
+
+/* Newest Comment */
+.anchor_c8ddc0 {
+  color: var(--background-accent);
+}
+
